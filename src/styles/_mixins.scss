@@ -1,4 +1,10 @@
 //Breakpoints based on twitter's bootstrap grid
+@mixin xs-screen{
+    @media (max-width: 400px){
+        @content;
+    }
+}
+
 @mixin sm-screen{
     @media (min-width: 576px){
         @content;
