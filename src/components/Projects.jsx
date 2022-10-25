@@ -4,6 +4,7 @@ import projects from '../utils/projects'
 import SectionTitle from '../assets/SectionTitle'
 import FeaturedProject from './FeaturedProject'
 import ProjectItem from './ProjectItem'
+import Button from '../assets/Button'
 
 function Projects() {
 
@@ -31,7 +32,7 @@ function Projects() {
             )
         })
         }
-        <h1>Other Projects</h1>
+        <h1 style={{textAlign: "center"}}>Other Projects</h1>
         <div style={ProjList}>
         {
         projects.map((proj)=>{
@@ -46,6 +47,8 @@ function Projects() {
         })
         }
         </div>
+
+        <Button text="View More" linkto="https://github.com/WasineeSi/Springboard"/>
     </div>
   )
 }

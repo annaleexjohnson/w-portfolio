@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../assets/Button'
 import SectionTitle from "../assets/SectionTitle"
 import style from "../styles/about.module.scss"
 
@@ -55,9 +56,7 @@ function About() {
                 </div>
             </div>
         </div>
-        <div className={style.resume__btn}>
-            <button><h1>View Resume</h1></button>
-        </div>
+        <Button text="View Resume"/>
         <div className={style.summary}>
             <p className={style.summary__par}>I am seeking a position in data science, data engineering, or data analytics. I am currently enrolled in a rigorous 6 month data science program with over 650 hours of work, 14 projects, and 1:1 mentorship. This program emphasizes using various technologies such as Git, SQL, and Python to organize projects, manage data, and solve problems. 
             <br/>
