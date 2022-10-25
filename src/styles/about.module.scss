@@ -9,8 +9,9 @@
     }
 
     .skills__pic{
-        height: 35vw;
-        width: 35vw;
+        display: none;
+        height: 20vw;
+        width: 20vw;
         border-radius: 50%;
         background-color: white;
         background-image: url("../assets/profilepic2.jpg");
@@ -27,8 +28,8 @@
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: row;
-        gap: 0.5rem;
         max-width: 100%;
+        height: 30rem;
 
         > div:nth-child(even){
             text-align: right;
@@ -38,10 +39,12 @@
             display: flex;
             flex-direction: column;
             background-color: $primary;
-            height:20rem;
-            flex-basis: 45%;
+            height: 50%;
+            flex: 100%;
+            max-width: 45%;
             font-size: 0.8rem;
-            padding: 5vw;
+            padding: 2vw 5vw;
+            margin: 0.3rem;
             border-radius: 1rem;
         }
 
@@ -56,29 +59,6 @@
         }
     }
 
-    .resume__btn{
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-        margin: 5vh;
-
-        button{
-            width: 15rem;
-            height: 4rem;
-            color: white;
-            background-color: $secondary;
-            font-size: 0.8rem;
-            padding: 0.5rem;
-            border: none;
-            outline: none;
-            border-radius: 2rem;
-
-            &:hover{
-                background-color: $primary-var;
-            }
-        }
-    }
-
     .summary{
         display: flex;
         flex-direction: column;
@@ -87,6 +67,10 @@
         background-color: $primary-var;
         color: white;
         padding: 1rem;
+
+        &__par{
+            margin: 1rem 0;
+        }
 
         &__pic{
             background-color: white;
@@ -105,17 +89,12 @@
     }
 
     @include md-screen{
-        .skills__pic{
-            height: 30vw;
-            width: 30vw;
-        }
         .skills__list{
-            div{
-                height: 30rem;
-            }
+            height: 50rem;
+            margin: 0 10vw;
 
             ul{
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             }
 
             h1{
@@ -123,7 +102,7 @@
             }
         } 
         .summary{
-            padding: 4rem;
+            padding: 4rem 10rem;
 
             &__pic{
                 padding-top: 60%;
@@ -133,16 +112,16 @@
     }
 
     @include lg-screen{
+        .skills__pic{
+            display: block;
+        }
+
         .skills__list{
             margin: 0 10vw;
         }
-        
-        .resume__btn{
-            margin: 10vh 5vh;
-        }
 
         .summary{
-            flex-direction: row-reverse;
+            flex-direction: row;
             align-items: center;
             gap: 2rem;
 
@@ -151,9 +130,19 @@
             }
 
             &__pic{
-                padding-top: 35%;
-                width: 35%;
+                padding-top: 50%;
+                width: 40%;
             }
+        }
+    }
+
+    @include xl-screen{
+
+        .skills__list{
+            margin: 5vw 20vw;
+        }
+        .summary{
+            padding: 5vw 20vw;
         }
     }
 }
