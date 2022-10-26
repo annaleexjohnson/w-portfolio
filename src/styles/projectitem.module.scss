@@ -31,6 +31,11 @@
         margin: 0.5rem 0;
     }
 
+    &:hover{
+        border-radius: 2rem;
+        outline: 0.3rem solid $primary;
+    }
+
     @include md-screen{
         width: 50%;
         padding: 1rem;
