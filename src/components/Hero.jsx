@@ -9,7 +9,11 @@ function Hero() {
         <div className={style.hero__main}>
             <div className={style.hero__info}>
                 <h1>Wasinee<br/>Siewsrichol</h1>
-                <span>data scientist</span>
+                <div>
+                   <span className={style.hero__title}>data scientist</span>
+                    <span></span> 
+                </div>
+                
                 <div className={style.nav_links}>
                     <a href="#">
                         <TbBrandLinkedin size={"3.5rem"}/>

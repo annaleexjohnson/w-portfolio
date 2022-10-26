@@ -49,10 +49,19 @@
             }
         }
 
-        span{
+        .hero__title{
+            display: inline-flex;
             color: $primary-font;
             font-weight: 700;
-            margin: 0.5rem 0 0 0.5rem;
+            overflow: hidden;
+            border-right: 0.15rem solid $secondary;
+            white-space: nowrap;
+            letter-spacing: 0.15rem;
+            margin-left: 0.5rem;
+            padding-right: 0.2rem;
+
+            animation: typing 5s steps(70, end),
+            blink-caret 1s step-end infinite;
         }
 
         .nav_links{
@@ -61,6 +70,10 @@
           bottom: -1.5rem;
           align-items: center;
           justify-content: flex-end;
+
+          a:hover{
+            color: $secondary;
+          }
         }
     }
 
@@ -104,5 +117,24 @@
             width: 60%;
         } 
     }
+
+    @include xl-screen{
+        &__main{
+            h1{
+                font-size: 5rem;
+            }
+        }
+    }
+}
+
+@keyframes typing {
+    from {max-width: 0}
+    to {max-width: 100%}
+}
+
+@keyframes blink-caret {
+    from {border-color: transparent;}
+    50% {border-color: $secondary}
+    to {border-color: transparent;}
 }
 
