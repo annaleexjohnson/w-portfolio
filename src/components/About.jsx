@@ -5,7 +5,7 @@ import style from "../styles/about.module.scss"
 
 function About() {
   return (
-    <div className={style.about}>
+    <div id="about" className={style.about}>
         <SectionTitle title="About Me"/>
         <div className={style.skills}>
             <div className={style.skills__pic}></div>

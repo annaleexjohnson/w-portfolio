@@ -4,7 +4,7 @@ import style from "../styles/contact.module.scss"
 
 function Contact() {
   return (
-    <>
+    <div id="contact">
     <SectionTitle title="Contact"/>
     <div className={style.contact}>
         
@@ -26,7 +26,7 @@ function Contact() {
             </div>
         </div>
     </div>
-    </>
+    </div>
   )
 }
 

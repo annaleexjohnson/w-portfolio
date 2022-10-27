@@ -5,11 +5,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     background-color: $background;
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 a{

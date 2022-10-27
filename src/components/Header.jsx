@@ -1,5 +1,6 @@
 import React from 'react'
 import style from "../styles/header.module.scss"
+import {Link} from "react-router-dom"
 
 function Header() {
   return (
@@ -11,17 +12,17 @@ function Header() {
                 <label for="checkbox-toggle" className={style.nav__ham}>&#9776;</label>
                 {/* Navigation */}
                 <div className={style.nav__menu}>
-                    <li>
-                        <a>home</a>
+                    <li className={style.nav__item}>
+                        <a href="#hero">home</a>
                     </li>
-                    <li>
-                        <a>about</a>
+                    <li className={style.nav__item}>
+                        <a href="#about">about</a>
                     </li>
-                    <li>
-                        <a>projects</a>
+                    <li className={style.nav__item}>
+                        <a href="#projects">projects</a>
                     </li>
-                    <li>
-                        <a>contact</a>
+                    <li className={style.nav__item}>
+                        <a href="#contact">contact</a>
                     </li> 
                 </div>
                 

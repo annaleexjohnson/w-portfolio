@@ -10,12 +10,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-     <Header />
-     <Hero />
-     <About />
-     <Projects />
-     <Contact />
+    <div className="App" id="home">
+      <Header />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
     </div>
   )
 }

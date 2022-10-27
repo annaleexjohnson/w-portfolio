@@ -17,7 +17,7 @@ function Projects() {
     }
 
   return (
-    <div>
+    <div id="projects" style={{paddingTop: "5vh" }}>
         <SectionTitle title="Projects" />
         {
         featured.map((proj)=>{

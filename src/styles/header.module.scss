@@ -4,10 +4,11 @@
 
 .header{
     width: 100vw;
+    min-height: 10vh;
     overflow: hidden;
     background-color: white;
     box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.25);
-    position: sticky;
+    position: fixed;
     top: 0;
     display: flex;
     justify-content: center;
