@@ -16,10 +16,10 @@ function Hero() {
                 </div>
                 
                 <div className={style.nav_links}>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/wasinee-siewsrichol/" target="_blank">
                         <TbBrandLinkedin size={"3.5rem"}/>
                     </a>
-                    <a href="#">
+                    <a href="https://github.com/WasineeSi" target="_blank">
                         <AiFillGithub size={"3rem"}/>
                     </a>
                 </div>
