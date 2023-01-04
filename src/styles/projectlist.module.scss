@@ -1,0 +1,21 @@
+@import "variables";
+@import "mixins";
+
+.container{
+    padding: 0 5vw;
+    padding-top: 5vh;
+    width: 100%;
+    height: auto;
+
+    h1{
+        text-align: center;
+    }
+}
+
+.projlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: wrap;
+    max-width: 100%;
+}

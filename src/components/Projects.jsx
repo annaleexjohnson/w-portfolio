@@ -5,6 +5,7 @@ import SectionTitle from '../assets/SectionTitle'
 import FeaturedProject from './FeaturedProject'
 import ProjectItem from './ProjectItem'
 import Button from '../assets/Button'
+import style from '../styles/projectlist.module.scss'
 
 function Projects() {
 
@@ -13,11 +14,11 @@ function Projects() {
         alignItems: "flex-start",
         justifyContent: "center",
         flexFlow: "row wrap",
-        maxWidth: "100%",
+        maxWidth: "80%",
     }
 
   return (
-    <div id="projects" style={{paddingTop: "5vh" }}>
+    <div id="projects" className={style.container}>
         <SectionTitle title="Projects" />
         {
         featured.map((proj)=>{
@@ -32,8 +33,8 @@ function Projects() {
             )
         })
         }
-        <h1 style={{textAlign: "center"}}>Other Projects</h1>
-        <div style={ProjList}>
+        <h1>Other Projects</h1>
+        <div className={style.projlist}>
         {
         projects.map((proj)=>{
             return(
