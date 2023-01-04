@@ -2,7 +2,7 @@ const featured = [
     {
         title: "Big Mountain Price Analysis",
         github: "https://github.com/WasineeSi/Springboard/blob/ed783004882c5aec57f99266e0b9762a071ec778/DataScienceGuidedCapstone-master/Notebooks/05_modeling.ipynb",
-        summary: "Recommended the most ideal ski resort ticket price and leverage it to gain insights to sensitivity of changes to various resort parameters.",
+        summary: "Recommended the most ideal ski resort ticket price and leveraged it to gain insights to sensitivity of changes to various resort parameters.",
         tools: "pandas, numpy, os, pickle, matplotlib, seaborn, sklearn, cross validation, sklearn version, PCA, scale, train test split, standard scaler, min max scaler, dummy regressor, linear regression, random forest regression, r2 score, mean square error, mean absolute error, pipeline, simple imputer, select k best, f regression, datetime",
         image: "/src/assets/BigMountainPriceAnalysis.png"
     },
