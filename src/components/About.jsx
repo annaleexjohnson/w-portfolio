@@ -56,7 +56,7 @@ function About() {
                 </div>
             </div>
         </div>
-        <Button text="View Resume"/>
+        <Button text="View Resume" linkto="../src/assets/Resume-Wasinee.pdf"/>
         <div className={style.summary}>
             <div className={style.summary__pic}></div>
             <p className={style.summary__par}>I am seeking a position in data science, data engineering, or data analytics. I am currently enrolled in a rigorous 6 month data science program with over 650 hours of work, 14 projects, and 1:1 mentorship. This program emphasizes using various technologies such as Git, SQL, and Python to organize projects, manage data, and solve problems. 
