@@ -26,7 +26,9 @@ function Hero() {
             </div>
         </div>
         <div className={style.hero__arrow}>
-            <IoIosArrowDropdown size={"3rem"}/>
+            <a href="#about">
+                <IoIosArrowDropdown size={"3rem"}/>
+            </a>
         </div>
     </div>
   )
