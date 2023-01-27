@@ -5,59 +5,36 @@ import style from "../styles/about.module.scss"
 
 function About() {
   return (
+    <>
+    <SectionTitle title="About Me"/>
+
     <div id="about" className={style.about}>
-        <SectionTitle title="About Me"/>
+
         <div className={style.skills}>
-            <div className={style.skills__pic}></div>
             <div className={style.skills__list}>
-                <div className={style.skills__lang}>
+                <div className={style.skills__pic}></div>
+
+                <div className={style.list__item}>
                     <h1>Languages</h1>
-                    <ul>
-                        <li>Python (Pandas, NumPy, Scikit-Learn)</li>
-                        <li>SQL</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>C++</li>
-                    </ul>
+                    <p>Python (Pandas, NumPy, Scikit-Learn) &#8226; SQL &#8226; HTML &#8226; CSS &#8226; C++</p>
                 </div>
-                <div className={style.skills__ml}>
-                    <h1>Machine<br/>Learning</h1>
-                    <ul>
-                        <li>Hypothesis Testing</li>
-                        <li>Linear Regression</li>
-                        <li>Logistic Regression</li>
-                        <li>Classification</li>
-                        <li>K-Means Clustering</li>
-                        <li>KNN</li>
-                        <li>Random Forest</li>
-                    </ul>
+                <div className={style.list__item}>
+                    <h1>Machine Learning</h1>
+                    <p>Hypothesis Testing &#8226; Linear Regression &#8226; Logistic Regression &#8226; Classification &#8226; K-Means Clustering &#8226; KNN &#8226; Random Forest</p>
                 </div>
-                <div className={style.skills__visual}>
-                    <h1>Data<br/>Visualization</h1>
-                    <ul>
-                        <li>JSON</li>
-                        <li>CSV</li>
-                        <li>API</li>
-                    </ul>
+                <div className={style.list__item}>
+                    <h1>Data Visualization</h1>
+                    <p>JSON &#8226; CSV &#8226; API</p>
                 </div>
-                <div className={style.skills__collection}>
-                    <h1>Data<br/>Collection</h1>
-                    <ul>
-                        <li>MatplotLib</li>
-                        <li>Seaborn</li>
-                        <li>Plotly</li>
-                        <li>Tableau</li>
-                        <li>Power BI</li>
-                        <li>Bokeh</li>
-                        <li>D3.js</li>
-                        <li>Tableau</li>
-                    </ul>
-                    
+                <div className={style.list__item}>
+                    <h1>Data Collection</h1>
+                    <p>MatplotLib &#8226; Seaborn &#8226; Plotly &#8226; Tableau &#8226; Power BI &#8226; Bokeh &#8226; D3.js &#8226; Tableau</p>
                 </div>
             </div>
         </div>
         <Button text="View Resume" linkto="../src/assets/Resume-Wasinee.pdf"/>
-        <div className={style.summary}>
+    </div>
+    <div className={style.summary}>
             <div className={style.summary__pic}></div>
             <p className={style.summary__par}>I am seeking a position in data science, data engineering, or data analytics. I am currently enrolled in a rigorous 6 month data science program with over 650 hours of work, 14 projects, and 1:1 mentorship. This program emphasizes using various technologies such as Git, SQL, and Python to organize projects, manage data, and solve problems. 
             <br/>
@@ -69,7 +46,8 @@ function About() {
             </p>
             
         </div>
-    </div>
+    </>
+    
   )
 }
 
