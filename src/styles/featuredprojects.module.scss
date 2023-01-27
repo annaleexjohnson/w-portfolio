@@ -2,7 +2,7 @@
 @import "mixins";
 
 .featured{
-    margin: 5vw 10vw;
+    margin: 5vw $lg-borders;
     max-width: 100vw;
 
     .tools{
@@ -88,6 +88,6 @@
     }
 
     @include xl-screen{
-        margin: 5vw 20vw;
+        margin: 5vw $lg-borders;
     }
 }
