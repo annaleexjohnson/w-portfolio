@@ -36,15 +36,16 @@ function About() {
     </div>
     <div className={style.summary}>
             <div className={style.summary__pic}></div>
-            <p className={style.summary__par}>I am seeking a position in data science, data engineering, or data analytics. I am currently enrolled in a rigorous 6 month data science program with over 650 hours of work, 14 projects, and 1:1 mentorship. This program emphasizes using various technologies such as Git, SQL, and Python to organize projects, manage data, and solve problems. 
-            <br/>
-            <br/>
-            For my first capstone project, I had to figure out the best prices for a ski resort to set their weekend price while comparing their data to their competitors. I had to identify the problem, data wrangling, exploratory data analysis, preprocessing and training data development, modeling, documentation, and presented my work. For my second capstone, I used Arima, Linear Regression, and Random Forest for US Stock predictions by using over 4000 stocks and assess the risks. The model had a 0.03 cent average residual.
-            <br/>
-            <br/>
-            In my free time I like to play badminton and Ping-Pong. I am also a dog mom and super proud of my little guy. He is a handful, but he is the most loyal and loving friend. I also practice Thai Classical Dance and Music and love to perform.
-            </p>
-            
+            <div className={style.summary__par}>
+                <p >Hello! My name is Wasinee and I am seeking a position in data science, data engineering, or data analytics. I recently graduated from a rigorous 6 month data science program with over 650 hours of work, 14 projects, and 1:1 mentorship. This program emphasized using various technologies such as Git, SQL, and Python to organize projects, manage data, and solve problems. 
+                <br/>
+                <br/>
+                For my first capstone project, I had to figure out the best prices for a ski resort to set their weekend price while comparing their data to their competitors. I had to identify the problem, data wrangling, exploratory data analysis, preprocessing and training data development, modeling, documentation, and presented my work. For my second capstone, I used Arima, Linear Regression, and Random Forest for US Stock predictions by using over 4000 stocks and assess the risks. The model had a 0.03 cent average residual.
+                <br/>
+                <br/>
+                In my free time I like to play badminton and Ping-Pong. I am also a dog mom and super proud of my little guy. He is a handful, but he is the most loyal and loving friend. I also practice Thai Classical Dance and Music and love to perform.
+                </p>
+            </div>
         </div>
     </>
     

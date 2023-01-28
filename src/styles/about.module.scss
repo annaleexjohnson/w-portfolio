@@ -118,6 +118,7 @@
     }
 
     .summary{
+        display: flex;
         padding: 4rem $lg-borders;
 
         &__pic{
@@ -143,8 +144,12 @@
         gap: 2rem;
 
         &__pic{
-            padding-top: 50%;
-            width: 40%;
+            flex: 50%;
+        }
+
+        &__par{
+            flex: 50%;
+            font-size: 1.2rem;
         }
     }
 }
