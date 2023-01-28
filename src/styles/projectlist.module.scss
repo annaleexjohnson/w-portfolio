@@ -2,7 +2,6 @@
 @import "mixins";
 
 .container{
-    padding: 0 5vw;
     padding-top: 5vh;
     width: 100%;
     height: auto;
@@ -13,6 +12,7 @@
 }
 
 .projlist{
+    margin: $lg-borders;
     display: flex;
     align-items: flex-start;
     justify-content: center;
