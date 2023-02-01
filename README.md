@@ -1,5 +1,13 @@
 This is a Next.js project bootstrapped with create-next-app.
 
+## About
+
+This project was created for a data analyst who needed a portfolio site to showcase their projects.
+
+<img width="1439" alt="banner" src="https://user-images.githubusercontent.com/87035551/216193079-eb7f3651-087e-4071-b89d-cb519a0f49d0.png">
+<img width="1196" alt="projects" src="https://user-images.githubusercontent.com/87035551/216193096-2e0a5ede-f70d-4c3f-88a4-e768229b6fb6.png">
+
+
 ## Getting Started
 First, run the development server:
 
